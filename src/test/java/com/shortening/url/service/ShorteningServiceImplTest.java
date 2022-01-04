@@ -35,7 +35,7 @@ public class ShorteningServiceImplTest {
 
     @Test
     public void isUrlValidTest() {
-        String spaceExist = "https://www.nave r.com";
+        String spaceExist = "https://www.naver.com";
         String invalidWord = "https://www.musinsa.com/!";
         String noHttps = "www.musinsa.com";
         String httpInvalid = "http://www.musinsa.com";
